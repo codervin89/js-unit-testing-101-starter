@@ -28,6 +28,6 @@ describe('add()', () => {
 
 // TODO: test isEven() function
 // As a user I want to know if a number is even or not
-// If the number is even, return true
-// If the number is odd, return false
-// If no argument is passed, return false
+// 1. If the number is even, return 1
+// 2. If the number is odd, return 0
+// 3. If no argument is passed, return -1
