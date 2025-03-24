@@ -2,25 +2,6 @@ import { describe, it, expect } from "vitest";
 
 import { max, fizzBuzz } from "../src/intro";
 
-describe('FizzBuzz', () => {
-    it('should return FizzBuzz if args is divisable with 3 and 5', () => {
-        
-    })
-
-    it('should return Fizz if args is divisable only with 3', () => {
-        
-    })
-
-    it('should return Fizz if args is divisable only with 5', () => {
-        
-    })
-
-    it('should return arg as a string if args is not divisible with 3 nor 5', () => {
-        
-    })
-
-})
-
 
 describe("max", () => {
     it("should return the first arg if it is greater then the second arg", () => {
@@ -56,3 +37,23 @@ describe("max", () => {
     })
 
 })
+
+describe('FizzBuzz', () => {
+    it('should return FizzBuzz if args is divisable with 3 and 5', () => {
+        
+    })
+
+    it('should return Fizz if args is divisable only with 3', () => {
+        
+    })
+
+    it('should return Fizz if args is divisable only with 5', () => {
+        
+    })
+
+    it('should return arg as a string if args is not divisible with 3 nor 5', () => {
+        
+    })
+
+})
+
