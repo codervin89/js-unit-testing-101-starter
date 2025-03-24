@@ -11,7 +11,3 @@ export function add(a, b) {
 }
 
 // TODO: implement isEven
-// As a user I want to know if a number is even or not
-// If the number is even, return true
-// If the number is odd, return false
-// If no argument is passed, return false
