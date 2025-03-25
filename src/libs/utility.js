@@ -23,6 +23,16 @@ export function validateAndExtractEmailDomain(email) {
  *
  * @returns {string} Formatted current date
  */
-export function getFormattedDate() {
-  return dayjs().format('YYYY-MM-DD');
+export function getFormattedDate(date) {
+  return dayjs(date).format('YYYY-MM-DD');
+}
+
+
+/**
+ * Returns a random number between 0 and 40.
+ * @returns {number} Random number between 0 and 40
+ */
+export const getTemperture = (city) => {
+  console.log(`Getting temperature for ${city}`)
+  return Math.floor(Math.random() * 40);
 }
